@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>v-else-if</title>
+</head>
+<body>
+    <div id="app">
+        <div v-if="role=='admin'||role=='super_admin'">
+            好久不见啊，最近过得怎么样
+        </div>
+        <div v-else-if="role=='hr'">
+            其实我：<br>
+            .....
+        </div>
+        <div v-else>
+            最好的十年
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="v-else-if.js"></script>
+</body>
+</html>
