@@ -1,0 +1,34 @@
+*{
+    background: rgba(0,0,0,.02);
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar,.header{
+    text-align: center;
+}
+.navbar{
+    background: #db4c3f;
+    color: aliceblue;
+    padding: 5px 0;
+}
+.navbar h1{
+    font-size: 20px;
+    margin: 0;
+}
+.header{
+    padding: 20px 0;
+    color: #555;
+}
+.wrap{
+    max-width: 768px;
+    margin: 0 auto;
+}
+input,button{
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+input{
+    display: block;
+    width: 100%;
+}

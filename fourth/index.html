@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="lib/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body>
+    <div id="main">
+        <div class="navbar">
+            <h1>任务列表:</h1>
+        </div>
+        <div class="header">
+            作业写了没，还在开黑?
+        </div>
+        <form @submit.prevent="add" id="task-form">
+            <div class="wrap">
+                <input v-model="current.title" type="text" class="task-input" autocomplete="off">
+                <button type="submit">提交</button>
+            </div>
+        </form>
+        <div class="task-list">
+            <div class="wrap">jijoj
+                未完成：
+                <div v-for="(todo,index) in list" class="item">
+                    {{todo.title}}
+                    <button @click="remove(tode.id)">删除</button>
+                    <button @click="set_current(tode)">更新</button>
+                </div>
+            </div>
+        </div>
+        <div class="task-list completed">
+            <div class="wrap">
+                已完成:
+                <div class="item">XX任务</div>
+            </div>
+        </div>
+    </div>
+    <script src="lib/vue.js"></script>
+    <script src="js/myStorage.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
