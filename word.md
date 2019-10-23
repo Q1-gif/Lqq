@@ -34,3 +34,9 @@ average
 collapse
 重叠
 
+mouseenter
+鼠标中心
+
+mouseleave
+鼠槽
+
