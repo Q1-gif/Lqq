@@ -78,3 +78,15 @@ management
 
 integrated
 综合的/结合的
+
+space
+空间/空地/空格
+
+ellipsis
+(语言中的)省略（法）
+
+overflow
+溢出/淹没/泛滥
+
+nowrap
+现在
