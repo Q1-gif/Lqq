@@ -90,3 +90,21 @@ overflow
 
 nowrap
 现在
+
+flex
+收缩/绷紧
+
+filter
+过滤/筛选/渗入
+
+inherited
+遗传的/继承的
+
+element
+要素/元素/成分
+
+event
+事情/事件/项目
+
+listeners
+听者
